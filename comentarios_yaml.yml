@@ -1,0 +1,18 @@
+Comentarios:
+- yaml document begining
+- comment syntax
+- basic syntax key and value separated by colon and space before value
+- Scalar data types
+- integer value
+- floating vale
+- string with double quotes
+- string with single quotes
+- string without quotes
+- boolean values true or false
+- Multiline strinsg with literal block syntax preserved new lines
+- Multiline strings with folded block syntax new lines are not preserved leading and
+  trailing spaces are ignore
+- Collection sequence data types
+- sequence arraylist example
+- other way of sequence syntax example
+- dictionary

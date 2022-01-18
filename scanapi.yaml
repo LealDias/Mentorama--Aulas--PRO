@@ -1,0 +1,20 @@
+endpoints:
+- name: tarefa_6 # The API's name of your API
+  path: http://127.0.0.1:8000/ # The API's base url
+  requests:
+    -  name: tarefa_6 #  Name of first request
+       path: / #  The path of the first request
+       method: get #  The HTTP method of the first request
+       tests:
+         - name: status_code_is_200 # The name of the first test for this request
+           assert:  ${{response.status_code == 200}}  # The assertion
+
+- name: tarefa_6 # The API's name of your API
+  path: http://127.0.0.1:8000/ # The API's base url
+  requests:
+    -  name: tarefa_6 #  Name of first request
+       path: /operacoes #  The path of the first request
+       method: post #  The HTTP method of the first request
+       tests:
+         - name: status_code_is_422 # The name of the first test for this request
+           assert:  ${{response.status_code == 422}}  # The assertion  Nota: Fiz o teste entrar com erro 402 pois não há entrada de dados no post           

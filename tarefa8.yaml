@@ -1,0 +1,16 @@
+Resources:
+  tarefadoisserver:
+    Properties:
+      ImageId: ami-00399eb92221878g4
+      InstanceType: t2.micro
+    Type: AWS::EC2::Instance
+  tarefatresserver:
+    Properties:
+      ImageId: ami-00699ed90271076f1
+      InstanceType: t2.micro
+    Type: AWS::EC2::Instance
+  tarefaumserver:
+    Properties:
+      ImageId: ami-00399ec92221878f9
+      InstanceType: t2.micro
+    Type: AWS::EC2::Instance
